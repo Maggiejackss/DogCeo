@@ -1,0 +1,78 @@
+html{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    height:100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgba(39, 157, 245, 0.8);
+    row-gap: 5px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    flex: 1;
+    max-width: 100%;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.parentCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.imgcont, .finalimgcont{
+    border: 5px solid black;
+    /* object-fit: contain; */
+    display: flex;
+    width: 250px;
+    /* flex-shrink: 1; */
+    justify-content: center;
+    padding: 3px;
+    margin: 3px;
+}
+
+.imgcont{
+    height: 250px;
+}
+
+.finalimgcont{
+    height: 350px;
+}
+    
+
+.bg {
+    background-color: rgba(39, 157, 245, 0.8);
+}
+
+.displayed {
+}
+
+.hidden {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+}
